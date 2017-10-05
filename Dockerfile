@@ -12,13 +12,13 @@ ENV PATH /go/bin:$PATH
 RUN useradd --user-group --shell /bin/false app
 
 # Cd into the api code directory
-WORKDIR /go/src/github.com/RichardKnop/go-oauth2-server
+WORKDIR /go/src/github.com/steveandroulakis/go-oauth2-server
 
 # Copy the local package files to the container's workspace.
-ADD . /go/src/github.com/RichardKnop/go-oauth2-server
+ADD . /go/src/github.com/steveandroulakis/go-oauth2-server
 
 # Chown the application directory to app user
-RUN chown -R app:app /go/src/github.com/RichardKnop/go-oauth2-server/
+RUN chown -R app:app /go/src/github.com/steveandroulakis/go-oauth2-server/
 
 # Use the unprivileged user
 USER app
