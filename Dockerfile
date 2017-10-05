@@ -24,7 +24,7 @@ RUN chown -R app:app /go/src/github.com/RichardKnop/go-oauth2-server/
 USER app
 
 # Install the api program
-RUN go install github.com/RichardKnop/go-oauth2-server
+RUN go install github.com/steveandroulakis/go-oauth2-server
 
 # User docker-entrypoint.sh script as entrypoint
 ENTRYPOINT ["./docker-entrypoint.sh"]
