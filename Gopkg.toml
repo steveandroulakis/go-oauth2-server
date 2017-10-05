@@ -51,10 +51,6 @@
 
 [[dependencies]]
   branch = "master"
-  name = "github.com/motemen/go-loghttp"
-
-[[dependencies]]
-  branch = "master"
   name = "github.com/RichardKnop/go-fixtures"
 
 [[dependencies]]
