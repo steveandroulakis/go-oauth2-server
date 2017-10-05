@@ -4,6 +4,8 @@ import (
 	"encoding/gob"
 	"errors"
 	"net/http"
+	
+	_ "github.com/motemen/go-loghttp/global" //
 
 	"github.com/RichardKnop/go-oauth2-server/config"
 	"github.com/gorilla/sessions"
