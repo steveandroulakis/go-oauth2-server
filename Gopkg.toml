@@ -49,7 +49,9 @@
 ## what source location any dependent projects specify.
 # source = "https://github.com/myfork/package.git"
 
-
+[[dependencies]]
+  branch = "master"
+  name = "github.com/motemen/go-loghttp"
 
 [[dependencies]]
   branch = "master"
