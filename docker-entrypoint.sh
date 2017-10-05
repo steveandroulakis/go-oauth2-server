@@ -2,8 +2,6 @@
 
 set -e
 
-go get -v github.com/motemen/go-loghttp/global
-
 executable="go-oauth2-server"
 cmd="$@"
 
